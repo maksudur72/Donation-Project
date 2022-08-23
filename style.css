@@ -155,3 +155,66 @@
     height: 60px;
 
 }
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+}
+
+.half-width {
+    width: 40%;
+    margin-left: 50px;
+
+}
+
+.half-width img {
+    width: 80%;
+    height: 350px;
+}
+
+.half-width h2 {
+    font-size: 40px;
+}
+
+.donate-btn {
+    display: block;
+    text-decoration: none;
+    background-color: coral;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.notify {
+    text-align: center;
+}
+
+.section-5 h2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.section-5 {
+    background-color: lightskyblue;
+    height: 130px;
+    margin-bottom: 80px;
+}
+
+.email-add {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.info {
+    text-decoration: none;
+    background-color: crimson;
+    padding: 1px 10px 1px 10px;
+    color: white;
+    border-radius: 10px;
+}
