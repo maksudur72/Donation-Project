@@ -1,10 +1,5 @@
 * {
-    font-family: 'Merriweather', serif;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-family: 'Mochiy Pop P One', sans-serif;
-    font-family: 'Noto Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Secular One', sans-serif;
     margin: 0%;
     padding: 0%;
 }
@@ -13,16 +8,13 @@
     background-image: url(images/donation-pic.jpg);
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height: 500px;
 }
 
 .center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    text-align: justify center;
 
 }
 
@@ -30,7 +22,7 @@
     color: white;
     font-size: 50px;
     letter-spacing: 4px;
-    line-height: 80px;
+    line-height: 70px;
 }
 
 .section-1 p {
@@ -49,4 +41,117 @@
     font-size: larger;
     cursor: pointer;
     border: 0;
+}
+
+.center-item-2 {
+    text-align: center;
+    padding-top: 120px;
+
+}
+
+.section-2 p {
+    color: black;
+    margin: 10px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-size: medium;
+    letter-spacing: 0;
+}
+
+.section-2 h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.money {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.money div {
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 2px 2px 6px;
+}
+
+.money div:hover {
+    background-color: gray;
+}
+
+.amount {
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+}
+
+.amount button {
+    background-color: coral;
+    cursor: pointer;
+    padding: 3px 7px 3px 7px;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+}
+
+.payment-btn button {
+    background-color: coral;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 45.2%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.donate-plan {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.donate-plan h2 {
+    font-size: 30px;
+}
+
+.flexible-content {
+    display: flex;
+    width: 96%;
+    margin-top: 50px;
+    margin-left: 11%;
+    height: 270px;
+    width: 1200px;
+}
+
+.card-1 {
+    background-color: lightgoldenrodyellow;
+    margin-left: 30px;
+    padding: 40px;
+}
+
+.card-2 {
+    background-color: lightpink;
+    margin-left: 50px;
+    margin-right: 20px;
+    padding: 40px;
+}
+
+.card-3 {
+    background-color: lightsteelblue;
+    margin-left: 30px;
+    padding: 40px;
+
+}
+
+.card-2 img {
+    height: 60px;
+
 }
